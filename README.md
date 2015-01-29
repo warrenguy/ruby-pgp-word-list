@@ -12,4 +12,10 @@ require 'pgp-word-list'
 
 > "stairway souvenir flytrap recipe adrift upcoming artist positive spearhead Pandora spaniel stupendous tonic concurrent transit Wichita lockup visitor flagpole escapade".to_pgp_hex
 => "D1D464C004F00FB5C9A4C8D8E433E7FB7FF56256"                       
+
+> ["stairway", "souvenir", "flytrap", "recipe"].to_pgp_hex
+=> ["D1", "D4", "64", "C0"]
+
+> ["D1", "D4", "64", "C0"].to_pgp_words
+=> ["stairway", "souvenir", "flytrap", "recipe"]
 ````
