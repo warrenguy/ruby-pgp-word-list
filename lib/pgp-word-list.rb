@@ -36,6 +36,9 @@ class PGPWordList
   end
 
   def self.word_list
+    # from http://en.wikipedia.org/wiki/PGP_word_list
+    # 'hex' => ['even word', odd word']
+
     {
       '00' => ['aardvark', 'adroitness'], '01' => ['absurd', 'adviser'],
       '02' => ['accrue', 'aftermath'], '03' => ['acme', 'aggregate'],

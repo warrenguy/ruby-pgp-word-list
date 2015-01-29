@@ -2,6 +2,8 @@
 
 Convert hex strings to PGP word lists and vice-versa.
 
+See [PGP word list on WikiPedia](http://en.wikipedia.org/wiki/PGP_word_list]) for more information.
+
 ## Usage
 
 ````
@@ -19,3 +21,13 @@ require 'pgp-word-list'
 > ["D1", "D4", "64", "C0"].to_pgp_words
 => ["stairway", "souvenir", "flytrap", "recipe"]
 ````
+
+## Author
+
+Warren Guy <warren@guy.net.au>
+
+https://warrenguy.me
+
+## License
+
+MIT license. See [LICENSE](https://github.com/warrenguy/ruby-pgp-word-list/blob/master/LICENSE)
