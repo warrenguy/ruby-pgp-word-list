@@ -4,6 +4,8 @@ Convert hex strings to PGP word lists and vice-versa.
 
 See [PGP word list on WikiPedia](http://en.wikipedia.org/wiki/PGP_word_list]) for more information.
 
+I've also written a JavaScript version: [javascript-pgp-word-list](https://github.com/warrenguy/javascript-pgp-word-list).
+
 ## Usage
 
 ````
