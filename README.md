@@ -8,6 +8,8 @@ I've also written a JavaScript version: [javascript-pgp-word-list](https://githu
 
 ## Usage
 
+Available as a gem on [RubyGems](https://rubygems.org/gems/pgp-word-list).
+
 ````
 require 'pgp-word-list'
 
