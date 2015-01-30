@@ -10,19 +10,11 @@ end
 
 class Array
   def to_pgp_words
-    words = []
-    self.each_with_index do |hex, i|
-      words << PGPWordList.hex_to_word(hex, i)
-    end
-    return words
+    self.each_with_index.map{|hex, i| PGPWordList.hex_to_word(hex, i)}
   end
 
   def to_pgp_hex
-    hex = []
-    self.each do |word|
-      hex << PGPWordList.word_to_hex(word)
-    end
-    return hex
+    self.map{|word| PGPWordList.word_to_hex(word)}
   end
 end
 
