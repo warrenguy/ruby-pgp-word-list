@@ -8,6 +8,12 @@ class String
   end
 end
 
+class Integer
+  def to_pgp_words
+    self.to_s(16).to_pgp_words
+  end
+end
+
 class Array
   def to_pgp_words
     self.each_with_index.map{|hex, i| PGPWordList.hex_to_word(hex, i)}

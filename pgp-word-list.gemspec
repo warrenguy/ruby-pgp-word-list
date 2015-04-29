@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'pgp-word-list'
-  s.version     = '0.0.3'
-  s.date        = '2015-01-30'
+  s.version     = '0.1.0'
+  s.date        = '2015-04-29'
   s.summary     = "PGP word list gem"
   s.description = "PGP word list gem"
   s.authors     = ["Warren Guy"]
